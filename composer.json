@@ -1,0 +1,22 @@
+{
+    "name": "vexpro/module-marketplace",
+    "description": "Marketplace",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vexpro\\Marketplace\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vexpro_Marketplace::marketplace" title="MarketPlace" module="Vexpro_Marketplace" sortOrder="51" resource="Vexpro_Marketplace::marketplace"/>
+        <add id="Vexpro_Marketplace::vendedor" title="Gerenciar vendedor" module="Vexpro_Marketplace" sortOrder="10" action="vexpro_marketplace/vendedor/index" resource="Vexpro_Marketplace::vendedor" parent="Vexpro_Marketplace::marketplace"/>
+        <add id="Vexpro_Marketplace::produto" title="Gerenciar produto" module="Vexpro_Marketplace" sortOrder="10" action="vexpro_marketplace/produto/index" resource="Vexpro_Marketplace::produto" parent="Vexpro_Marketplace::marketplace"/>
+        <add id="Vexpro_Marketplace::pedido" title="Gerenciar pedido" module="Vexpro_Marketplace" sortOrder="10" action="vexpro_marketplace/pedido/index" resource="Vexpro_Marketplace::pedido" parent="Vexpro_Marketplace::marketplace"/>
+        <add id="Vexpro_Marketplace::configuracao" title="Configurações" module="Vexpro_Marketplace" sortOrder="10" action="vexpro_marketplace/configuracao" resource="Vexpro_Marketplace::configuracao" parent="Vexpro_Marketplace::marketplace"/>
+    </menu>
+</config>
